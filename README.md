@@ -48,3 +48,78 @@ ENUMERAR DIRETÓRIOS!
 ```
 Vamos analisar cada diretório em partes pra termos uma boa direção
 
+No primeiro diretório existem 3 imagens...
+![image](https://user-images.githubusercontent.com/83795638/153271256-8c89881a-833b-4bfb-b061-c7713d76ec33.png)
+... quando abrimos cada uma delas a primeira vista parecem imagens normais porém não é bem o que elas são
+![image](https://user-images.githubusercontent.com/83795638/153271742-8c2c1ddb-0001-4e4e-ac12-1d70fc960b43.png)
+![image](https://user-images.githubusercontent.com/83795638/153271784-3d126492-5df5-4c7d-a347-aa20168f1c81.png)
+![image](https://user-images.githubusercontent.com/83795638/153271801-6faa53d6-2eac-439a-af10-7d118b1f1976.png)
+
+O segundo diretório se chama Poema e bem... ele tem um poema que aparece no livro o da Alice
+```
+The Jabberwocky
+'Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+
+“Beware the Jabberwock, my son!
+The jaws that bite, the claws that catch!
+Beware the Jubjub bird, and shun
+The frumious Bandersnatch!”
+
+He took his vorpal sword in hand:
+Long time the manxome foe he sought —
+So rested he by the Tumtum tree,
+And stood awhile in thought.
+
+And as in uffish thought he stood,
+The Jabberwock, with eyes of flame,
+Came whiffling through the tulgey wood,
+And burbled as it came!
+
+One, two! One, two! And through and through
+The vorpal blade went snicker-snack!
+He left it dead, and with its head
+He went galumphing back.
+
+“And hast thou slain the Jabberwock?
+Come to my arms, my beamish boy!
+O frabjous day! Callooh! Callay!”
+He chortled in his joy.
+
+‘Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+```
+E finalmente o terceiro e último diretório tem uma mensagem pra gente:
+
+Continue.
+"Você poderia me dizer, por favor, que caminho devo seguir a partir daqui?"
+
+E essa mensagem quer basicamente dizer que a gente tá no caminho certo.
+
+Porém olhando o código fonte da página... eu acabei não encontrado nada.
+
+Foi aí que decidi investigar mais os outros diretórios
+
+Se você é interessado em investigação ou computação em geral, já deve ter ouvido falar de metadados.
+
+Metadados são resumidamente dados que descrevem a estrutura de um arquivo e que muitas vezes são omitidos do usuário comum. De diversas formas eles são usados para nos dar pistas sobre a origem e funcionamento daquele arquivo além de darem ótimas dicas para nós jogadores.
+
+E se você lembrar bem, no primeiro diretório nós temos 3 imagens indexadas edisponíveis para download...
+
+Baixando elas para o nosso computador e usando uma ferramenta para a extração de metadados chamada steghide...
+```
+┌──(portollost)
+└─$ steghide extract -sf white_rabbit_1.jpg
+Enter passphrase:
+wrote extracted data to "hint.txt".
+```
+...a gente consegue um arquivo chamado hint.txt onde está a nossa segunda dica
+```
+┌──(liminal㉿DESKTOP-93UJNBQ)-[~/liminal]
+└─$ cat hint.txt
+follow the r a b b i t
+```
