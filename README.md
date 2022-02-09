@@ -128,3 +128,5 @@ E olha que massa, ele passou pra gente o exato caminho da toca do coelho
 Como a gente já sabe o nome do terceiro diretório é r
 então combinando... `r/a/b/b/i/t/` a gente consegue o acesso do diretório secreto onde encontramos:
 ![image](https://user-images.githubusercontent.com/83795638/153278252-a4870835-fdaf-469d-ba9e-c08fbd6eaaa1.png)
+
+E olhando o código fonte da página nós encontramos isso:
