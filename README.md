@@ -130,3 +130,28 @@ então combinando... `r/a/b/b/i/t/` a gente consegue o acesso do diretório secr
 ![image](https://user-images.githubusercontent.com/83795638/153278252-a4870835-fdaf-469d-ba9e-c08fbd6eaaa1.png)
 
 E olhando o código fonte da página nós encontramos isso:
+![image](https://user-images.githubusercontent.com/83795638/153528912-61e5fba1-c0bc-4cd2-89d0-381c1b7d45e3.png)
+Pela formatação disso e pelas informações que temos, nós já sabemos que isso é a senha do usuário alice no ssh
+```
+┌──(portolost@)
+└─$ ssh alice@10.10.141.32
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+alice@10.10.141.32's password: HowDothTheLittleCrocodileImproveHisShiningTail
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-101-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ System information disabled due to load higher than 1.0
+
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Mon May 25 16:37:21 2020 from 192.168.170.1
+alice@wonderland:~$
+```
+
+
