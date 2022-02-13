@@ -119,7 +119,7 @@ wrote extracted data to "hint.txt".
 ```
 ...a gente consegue um arquivo chamado hint.txt onde está a nossa segunda dica
 ```
-┌──(liminal㉿DESKTOP-93UJNBQ)-[~/liminal]
+┌──(portolos@)
 └─$ cat hint.txt
 follow the r a b b i t
 ```
