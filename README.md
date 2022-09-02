@@ -142,7 +142,7 @@ E olhando o código fonte da página nós encontramos isso:
 Pela formatação disso e pelas informações que temos, nós já sabemos que isso é a senha do usuário alice no ssh
 ```
 ┌──(portolost@)
-└─$ ssh alice@10.10.141.32
+└─$ ssh hatter@10.10.141.32
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 alice@10.10.141.32's password: HowDothTheLittleCrocodileImproveHisShiningTail
 Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-101-generic x86_64)
