@@ -1,4 +1,12 @@
 # CTF-Wonderland-TryHackMe
+
+ALUNO: Gabriel Comonian Porto
+
+Link do CTF: https://tryhackme.com/room/wonderland
+
+Professor, o arquivo está com essa formatação porque fiz ele pra upar no github como um arquivo MarkDown :P
+
+Aqui o link do meu Github caso queira visualizar em Markdown: https://github.com/Portollost/CTF-Wonderland-TryHackMe
 CTF baseado em alice no país das maravilhas
 
 A primeira coisa que eu gosto de fazer em um CTF temático é olhar se ele tem um serviço web rodando na porta 80
@@ -151,7 +159,8 @@ Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-101-generic x86_64)
 
 
 Last login: Mon May 25 16:37:21 2020 from 192.168.170.1
-alice@wonderland:~$
+hatter@wonderland:~$
 ```
+![image](https://user-images.githubusercontent.com/83795638/188046394-30fa0f2b-408e-4a86-abfd-7871d047fb6c.png)
 
 
