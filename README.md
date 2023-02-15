@@ -4,8 +4,6 @@ ALUNO: Gabriel Comonian Porto
 
 Link do CTF: https://tryhackme.com/room/wonderland
 
-Professor, o arquivo está com essa formatação porque fiz ele pra upar no github como um arquivo MarkDown :P
-
 Aqui o link do meu Github caso queira visualizar em Markdown: https://github.com/Portollost/CTF-Wonderland-TryHackMe
 CTF baseado em alice no país das maravilhas
 
